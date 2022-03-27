@@ -1,0 +1,108 @@
+body {
+    text-align: center;
+}
+
+#cartoon {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(lightblue, blue);
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#p1 {
+    font-family: cursive;
+}
+
+#img1 {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA
+}
+
+#img1:hover {
+    transform: scale(0.9);
+}
+
+#img2 {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA
+}
+
+#img2:hover {
+    transform: scale(0.9);
+}
+
+#controller {
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    margin-right: 320px;
+    margin-left: 250px;
+}
+
+#hobby{
+    background-image: linear-gradient(cyan,turquoise);
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    background : white;
+    width : 100%;
+    margin-top: 0px;
+}
+
+.links {
+    float: left;
+    color: white;
+    padding-left: 25px;
+    padding-right: 33px;
+    font-family: fantasy;
+    font-size: 20px;
+    display : inline;
+}
+
+.links:hover {
+    font-size : 25px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.article.hover {
+    color: aqua;
+}
+
+a {
+    text-decoration: none;
+}
+
+#contacts{
+    background: cyan;
+}
+
+#contacts iframe{
+    width : 100%;
+}
+
+.contact1 h3{
+    display: inline;
+}
+
+.contact1 a {
+    color : white;
+    text-shadow : none;
+}
